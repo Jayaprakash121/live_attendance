@@ -1,0 +1,9 @@
+opencv-python
+numpy
+pandas
+pickle
+streamlit
+scikit-learn
+gtts
+datetime
+csv
