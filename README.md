@@ -61,6 +61,7 @@ streamlit run app.py
 
 - Click on **Mark Attendance** checkbox to mark your attendance.
 - The system will detect faces in real-time and mark attendance when a face is recognized.
+  
  ![WhatsApp Image 2024-12-12 at 16 36 19_8c8e0761](https://github.com/user-attachments/assets/10bf0691-22cc-4e14-8369-c27edb581d9c)
 
 
@@ -68,6 +69,7 @@ streamlit run app.py
 
 - Click on **Check Attendance** to view the attendance record for the current day.
 - The attendance data will be displayed in a table.
+  
 ![WhatsApp Image 2024-12-12 at 16 36 23_513630da](https://github.com/user-attachments/assets/0b3911c5-3a68-4ac4-a840-f060aec4a2e4)
 
 
