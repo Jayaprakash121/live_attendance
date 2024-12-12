@@ -28,7 +28,9 @@ This system utilizes OpenCV for face detection, scikit-learn for machine learnin
 
 To install the required libraries, run the following command:
 
+```bash
 pip install opencv-python numpy pandas scikit-learn streamlit gtts
+```
 
 ## Setup and Usage
 
@@ -36,14 +38,18 @@ pip install opencv-python numpy pandas scikit-learn streamlit gtts
 
 Clone the repository to your local machine:
 
+```bash
 git clone <repository_url>  
 cd <repository_name>
+```
 
 ### 2. Run the Application
 
 Start the application using Streamlit by running the following command:
 
+```bash
 streamlit run app.py
+```
 
 ### 3. Adding Faces
 
@@ -55,24 +61,15 @@ streamlit run app.py
 
 - Click on **Mark Attendance** checkbox to mark your attendance.
 - The system will detect faces in real-time and mark attendance when a face is recognized.
+ ![WhatsApp Image 2024-12-12 at 16 36 19_8c8e0761](https://github.com/user-attachments/assets/10bf0691-22cc-4e14-8369-c27edb581d9c)
+
 
 ### 5. Checking Attendance
 
 - Click on **Check Attendance** to view the attendance record for the current day.
 - The attendance data will be displayed in a table.
+![WhatsApp Image 2024-12-12 at 16 36 23_513630da](https://github.com/user-attachments/assets/0b3911c5-3a68-4ac4-a840-f060aec4a2e4)
 
-## Screenshots
-
-### Adding Face:
-In this step, the user is adding their face by allowing the system to capture their facial data. The captured image is then processed and stored for future attendance marking.
-
-### Marking Attendance:
-After adding the face, the system is marking the user's attendance by detecting the face in real-time.
-
-## Attendance Data Storage
-
-- Face data and corresponding names are stored in `data/data.pkl` and `data/names.pkl`.
-- Attendance records are stored in CSV files located in the `attendance/` directory. Each day’s attendance is saved in a separate CSV file with the format `attendance_<date>.csv`.
 
 ## File Structure
 
